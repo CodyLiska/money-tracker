@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Money Tracker UI Demo</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <!-- Modern Table Section -->
+      <div class="table-responsive">
+        <button id="addRowButton" class="btn btn-primary mb-3">Add Row</button>
+        <button id="saveButton" class="btn btn-success mb-3">Save</button>
+        <table class="table table-borderless">
+          <thead>
+            <tr>
+              <th></th>
+              <!-- No header name for Chevron column -->
+              <th>Date</th>
+              <th>Payee</th>
+              <th>Category</th>
+              <th>Notes</th>
+              <th>Outflow</th>
+              <th>Inflow</th>
+              <th>Cleared</th>
+            </tr>
+          </thead>
+          <tbody id="transactionTable">
+            <tr id="transactionRow">
+              <td id="chevronCell">
+                <i class="bi bi-chevron-up text-danger"></i>
+              </td>
+              <td id="dateCell">
+                <input
+                  type="date"
+                  id="dateCellInput"
+                  class="form-control form-control-sm"
+                  value=""
+                />
+              </td>
+              <td id="payeeCell">
+                <select
+                  id="payeeCellDropDown"
+                  class="form-select form-select-sm"
+                >
+                  <option>John Doe</option>
+                  <option>Jane Smith</option>
+                  <option>ABC Corp</option>
+                </select>
+              </td>
+              <td id="categoryCell">
+                <select
+                  id="categroyCellDropdown"
+                  class="form-select form-select-sm"
+                >
+                  <option>Groceries</option>
+                  <option>Utilities</option>
+                  <option>Entertainment</option>
+                </select>
+              </td>
+              <td id="notesCell">
+                <input
+                  type="text"
+                  id="notesCellInput"
+                  class="form-control form-control-sm"
+                  value=""
+                />
+              </td>
+              <td id="outflowCell">
+                <input
+                  type="text"
+                  id="outflowCellInput"
+                  class="form-control form-control-sm"
+                  value=""
+                />
+              </td>
+              <td id="inflowCell">
+                <input
+                  type="text"
+                  id="inflowCellInput"
+                  class="form-control form-control-sm"
+                  value=""
+                />
+              </td>
+              <td id="clearedCell">
+                <input
+                  id="clearedCheckboxCell"
+                  class="form-check-input"
+                  type="checkbox"
+                />
+              </td>
+              <td>
+                <button
+                  id="saveButton"
+                  class="btn btn-primary btn-sm"
+                  style="display: none"
+                >
+                  Save
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Modern Balance Section -->
+      <div class="balance-section">
+        <div>
+          <label>Cleared Balance:</label>
+          <span class="balance-value" id="clearedBalanceValue">0</span>
+        </div>
+        <span> + </span>
+        <div>
+          <label>Uncleared Balance:</label>
+          <span class="balance-value" id="unclearedBalanceValue">0</span>
+        </div>
+        <span> = </span>
+        <div>
+          <label>Working Balance:</label>
+          <span class="balance-value" id="workingBalanceValue">0</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
