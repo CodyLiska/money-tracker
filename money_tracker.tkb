@@ -15,6 +15,36 @@
       "id": "PcpoFt8Tgz85q3cVHFNWC",
       "description": "🐞 Save button wiping out unclearedBalanceValue when clicked",
       "columnId": "column-todo"
+    },
+    "qbBB9z9rTAsbNjgYskyyQ": {
+      "id": "qbBB9z9rTAsbNjgYskyyQ",
+      "description": "🔨 Add a database to store transaction data",
+      "columnId": "column-todo"
+    },
+    "6zprlEGglm1Q-xnlWT8lq": {
+      "id": "6zprlEGglm1Q-xnlWT8lq",
+      "description": "🔨 Find a better location for Add Row and Save buttons",
+      "columnId": "column-todo"
+    },
+    "lrPg7hOigrMLpjq01m1kP": {
+      "id": "lrPg7hOigrMLpjq01m1kP",
+      "description": "🐞 Positioning of Cleared checkbox needs to be centered\n- also update the templete that adds a row when button clicked",
+      "columnId": "column-todo"
+    },
+    "6l7gXk-AqSi1xltwAEUAu": {
+      "id": "6l7gXk-AqSi1xltwAEUAu",
+      "description": "🔨 Cheveron color should be filled more and selectable\n- White\n- Red\n- Orange\n- Yellow\n- Green\n- Blue\n- Purple",
+      "columnId": "column-todo"
+    },
+    "ym2Ej_jSydDy_2t2qe_YW": {
+      "id": "ym2Ej_jSydDy_2t2qe_YW",
+      "description": "🔨 Create a Summery Page\n- overview of key numbers\n- upcoming bills due?",
+      "columnId": "column-todo"
+    },
+    "NgESxvgYKKWx5pTHf3X1r": {
+      "id": "NgESxvgYKKWx5pTHf3X1r",
+      "description": "🔨 Create a page for graphs displaying key data",
+      "columnId": "column-todo"
     }
   },
   "columns": [
@@ -24,7 +54,13 @@
       "tasksIds": [
         "task-SheciYZonxl9uzDgqr4R8",
         "ojkbRQ_T2F3MTJTokqsoF",
-        "PcpoFt8Tgz85q3cVHFNWC"
+        "PcpoFt8Tgz85q3cVHFNWC",
+        "qbBB9z9rTAsbNjgYskyyQ",
+        "6zprlEGglm1Q-xnlWT8lq",
+        "lrPg7hOigrMLpjq01m1kP",
+        "6l7gXk-AqSi1xltwAEUAu",
+        "ym2Ej_jSydDy_2t2qe_YW",
+        "NgESxvgYKKWx5pTHf3X1r"
       ]
     },
     {
