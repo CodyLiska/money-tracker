@@ -1,0 +1,41 @@
+{
+  "scope": "Workspace",
+  "tasks": {
+    "task-SheciYZonxl9uzDgqr4R8": {
+      "id": "task-SheciYZonxl9uzDgqr4R8",
+      "description": "🔨 Add functionality to accept and save user inputted values",
+      "columnId": "column-todo"
+    },
+    "ojkbRQ_T2F3MTJTokqsoF": {
+      "id": "ojkbRQ_T2F3MTJTokqsoF",
+      "description": "🔨 Change the font color of unclearedBalanceValue to be red when it's negative",
+      "columnId": "column-todo"
+    },
+    "PcpoFt8Tgz85q3cVHFNWC": {
+      "id": "PcpoFt8Tgz85q3cVHFNWC",
+      "description": "🐞 Save button wiping out unclearedBalanceValue when clicked",
+      "columnId": "column-todo"
+    }
+  },
+  "columns": [
+    {
+      "id": "column-todo",
+      "title": "🚧 To Do 🚧",
+      "tasksIds": [
+        "task-SheciYZonxl9uzDgqr4R8",
+        "ojkbRQ_T2F3MTJTokqsoF",
+        "PcpoFt8Tgz85q3cVHFNWC"
+      ]
+    },
+    {
+      "id": "column-doing",
+      "title": "⚡️ Working ⚡️",
+      "tasksIds": []
+    },
+    {
+      "id": "column-done",
+      "title": "✅ Done ✅",
+      "tasksIds": []
+    }
+  ]
+}
